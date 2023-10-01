@@ -1,14 +1,14 @@
-import React from 'react';
 import { HiArrowNarrowRight } from 'react-icons/hi';
 import {AiOutlineArrowDown} from 'react-icons/ai'
 
 const Home = () => {
+  
   return (
-    <div name='home' className='w-full h-screen bg-[#0a192f]'>
+    <div name='home' className='w-full h-screen   bg-slate-950'>
       {/* Container */}
       <div className='max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full'>
         <p className='text-pink-600 text-3xl'>Hi, my name is</p>
-        <h1 className='text-4xl sm:text-7xl font-bold text-[#ccd6f6]'>
+        <h1 className='text-4xl sm:text-7xl font-bold text-[#354c95] bg-clip-text tex'>
           Xurshidbek Gulomov
         </h1>
         <h2 className='text-4xl sm:text-7xl font-bold text-[#8892b0]'>
@@ -26,7 +26,7 @@ const Home = () => {
               <HiArrowNarrowRight className='ml-3 ' />
             </span>
           </button>
-
+          
           {/* <a href="#_" class="relative inline-flex items-center justify-center p-4 px-6 py-3 overflow-hidden font-medium text-indigo-600 transition duration-300 ease-out border-2 border-purple-500 rounded-full shadow-md group">
 <span class="absolute inset-0 flex items-center justify-center w-full h-full text-white duration-300 -translate-x-full bg-purple-500 group-hover:translate-x-0 ease">
 <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
@@ -39,6 +39,7 @@ const Home = () => {
 
 
         </div>
+        
       </div>
     </div>
   );

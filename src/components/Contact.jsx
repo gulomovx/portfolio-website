@@ -2,7 +2,7 @@ import { MdLocalPhone } from 'react-icons/md'
 import {FaTelegramPlane} from 'react-icons/fa'
 const Contact = () => {
   return (
-    <div name='contact' className='w-full h-screen bg-[#0a192f] flex justify-center items-center p-4 flex-row'>
+    <div name='contact' className='w-full h-screen bg-slate-950 flex justify-center items-center p-4 flex-row'>
       <div className='border grid grid-cols-1  rounded-lg sm:px-16  py-8 text-center '>
       <h1 className='text-white text-4xl :text-2xl'>Get in touch!</h1>
       <br />
